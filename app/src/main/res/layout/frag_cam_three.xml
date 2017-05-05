@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CamThreeFrag">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/expandableButtoncs1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba1f04"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtoncs1"
+            android:paddingRight="10dp"
+            android:text="LENS"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutcs1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#90ba1f04"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f2t1"
+                android:textStyle="bold"
+                android:text="Sony 50mm F/1.8 Prime Lens for Sony DSLR Camera" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t2"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sony SEL16F28 16mm F2.8 Prime Lens for Sony NEX Series Camera "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t3"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sony DT 55-200mm F/4 - 5.6 Telephoto Zoom Lens for Sony DSLR"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t4"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sony Alpha SAL35F18 35mm Mount Prime Lens"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+        <Button
+            android:id="@+id/expandableButtoncs2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#b77803"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtoncs2"
+            android:paddingRight="10dp"
+            android:text="BATTERY"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutcs2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#90b77803"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sony SB-6LH Battery Pack" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sony 8L Li-Ion Battery Pack for Canon A3100IS and A3000IS Digital Cameras - Retail Packaging"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="SonyE6 Original battery" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="SonyE6 Battery Pack for Select Canon Digital SLR Cameras - Retail Packaging" />
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        <Button
+            android:id="@+id/expandableButtoncs3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#10a106"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtoncs3"
+            android:paddingRight="10dp"
+            android:text="TRIPOD"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutcs3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#9010a106"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Smiledrive Expandable Long Universal Mobile Tripod - 360 Degrees Rotatable"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Photron Tripod Stedy 400 with Pan Head 4.5 Feet + Carry Case"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sony D3300 DSLR Camera (Body with AF-P DX NIKKOR 18 - 55 mm F3.5 - 5.6 VR Kit Lens)  (Black)"/>
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+        <Button
+            android:id="@+id/expandableButtoncs4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#066da1"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtoncs4"
+            android:paddingRight="10dp"
+            android:text="HOUSING"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutcs4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#90066da1"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Case Logic DCB-305"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="20M Underwater Waterproof Housing Bag Case DSLR SLR For Canon Nikon video Camera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sony EOS 7D DSLR Camera (Body only)  (Black)"/>
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

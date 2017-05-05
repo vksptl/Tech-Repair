@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LapSixFrag">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/expandableButtonlt1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba1f04"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonlt1"
+            android:paddingRight="10dp"
+            android:text="SCREEN"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutlt1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#90ba1f04"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f2t1"
+                android:textStyle="bold"
+                android:text="TOSHIBA PRO A40-C LCD Display " />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t2"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA PRO X4110 LCD"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t3"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA Satellite N5040 LCD"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t4"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA Satellite PRO C50D LCD"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+        <Button
+            android:id="@+id/expandableButtonlt2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#b77803"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonlt2"
+            android:paddingRight="10dp"
+            android:text="KEYBOARD"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutlt2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#90b77803"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA HAKO C640 KEYBOARD" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA HAKO C850 KEYBOARD"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA C655D KEYBOARD"/>
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        <Button
+            android:id="@+id/expandableButtonlt3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#10a106"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonlt3"
+            android:paddingRight="10dp"
+            android:text="MOTHERBOARD"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutlt3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#9010a106"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA Satellite P300D MotherBoard"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA Satellite P350D MotherBoard"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA Satellite A350 MotherBoard"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+        <Button
+            android:id="@+id/expandableButtonlt4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#066da1"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonlt4"
+            android:paddingRight="10dp"
+            android:text="BATTERY"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutlt4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#90066da1"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA C640 Battery"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA C655D Battery"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA Satellite A350 Battery"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        <Button
+            android:id="@+id/expandableButtonlt5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rr"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonlt5"
+            android:paddingRight="10dp"
+            android:text="RAM"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutlt5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/rrr"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA 2GB DDR3L"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA 4GB DDR3-1600"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA 8GB DDR3L "/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        <Button
+            android:id="@+id/expandableButtonlt6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bb"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonlt6"
+            android:paddingRight="10dp"
+            android:text="HARD DRIVES"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutlt6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/bbb"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA HAKO C640 750GB Hard Drive"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA Satellite A350 1TB Hard Drive"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA Satellite 500GB Hard Drive"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TOSHIBA HAKO P300D1TB Hard Drive"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

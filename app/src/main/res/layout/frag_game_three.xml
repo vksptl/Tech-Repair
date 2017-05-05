@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MobFourFrag">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/expandableButtongn1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba1f04"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtongn1"
+            android:paddingRight="10dp"
+            android:text="CONSOLE"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutgn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#90ba1f04"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f2t1"
+                android:textStyle="bold"
+                android:text="Imported Classic Gaming USB Gamepad Joypad Controller for Nintendo NES Windows PC" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t2"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Imported USB Retro Classic Gamepad Joypad Controller For PC/MAC Nintendo SNES Games"/>
+
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/expandableButtongn2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#10a106"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtongn2"
+            android:paddingRight="10dp"
+            android:text="CD DRIVE"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutgn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#9010a106"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Nintendo Wii DVD Rom Drive Disc Replacement Repair Part"/>
+
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

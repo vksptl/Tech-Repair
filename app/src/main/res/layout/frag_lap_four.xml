@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/expandableButtonll1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba1f04"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonll1"
+            android:paddingRight="10dp"
+            android:text="SCREEN"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutll1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#90ba1f04"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f2t1"
+                android:textStyle="bold"
+                android:text="Lenovo G50-30 LCD " />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t2"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo G50-45 LCD"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t3"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo G50-70 LCD"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t4"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo G560-3RL LCD"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+        <Button
+            android:id="@+id/expandableButtonll2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#b77803"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonll2"
+            android:paddingRight="10dp"
+            android:text="KEYBOARD"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutll2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#90b77803"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo Ideapad G580 KEYBOARD" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo 3000N100 KEYBOARD"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo Ideapad 500T KEYBOARD"/>
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        <Button
+            android:id="@+id/expandableButtonll3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#10a106"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonll3"
+            android:paddingRight="10dp"
+            android:text="MOTHERBOARD"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutll3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#9010a106"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo Ideapad G570 MotherBoard"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo Ideapad B570 MotherBoard"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo Ideapad V570 MotherBoard"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+        <Button
+            android:id="@+id/expandableButtonll4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#066da1"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonll4"
+            android:paddingRight="10dp"
+            android:text="BATTERY"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutll4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#90066da1"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo Ideapad Y5630 Battery"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo Ideapad Y530 Battery"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo G400 Battery"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        <Button
+            android:id="@+id/expandableButtonll5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rr"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonll5"
+            android:paddingRight="10dp"
+            android:text="RAM"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutll5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/rrr"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo 8GB RAM PC3L"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo 4GB RAM DDR3L"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo 4GB RAM DDR3-1600"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        <Button
+            android:id="@+id/expandableButtonll6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bb"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonll6"
+            android:paddingRight="10dp"
+            android:text="HARD DRIVES"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutll6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/bbb"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo F309 1TBHard Drive"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo Y480 800GB Hard Drive"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo Y500 1TB Hard Drive"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Lenovo 4XB05 500GB Hard Drive"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

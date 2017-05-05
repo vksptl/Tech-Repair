@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabOneFrag">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/expandableButtonta1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba1f04"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonta1"
+            android:paddingRight="10dp"
+            android:text="SCREEN"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutta1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#90ba1f04"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f2t1"
+                android:textStyle="bold"
+                android:text="iPad Air LCD IF128-019-1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t2"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Replacement Touch Screen Digitizer Parts w/Felx for iPad 2 White + Tool Kit"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t3"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Black Apple iPad 2 Touch Screen Glass Digitizer Replacement + 7 piece tool kit"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/f2t4"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="For iPad 3 iPad 4 Black Touch Screen Digitizer Glass Lens Replacement Tool kit"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+        <Button
+            android:id="@+id/expandableButtonta2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#b77803"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonta2"
+            android:paddingRight="10dp"
+            android:text="BATTERY"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutta2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#90b77803"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="New Replacement Battery for Apple iPad 2 2nd gen generation Part Repair Fix USA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Replacement Internal Battery for iPad 3 3rd 4 4th Generation 11560mAh"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="11500 mAh Li-ion Internel Battery Replacement Parts for iPad 4 iPad 3 Tools"/>
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        <Button
+            android:id="@+id/expandableButtonta3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#10a106"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonta3"
+            android:paddingRight="10dp"
+            android:text="HOUSING"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutta3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#9010a106"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Original Apple iPad 2nd 64GB WiFi+3G Back Cover/Housing/Frame"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Apple iPad 3 32GB  Cover/Housing/Frame"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Refurbished Original Apple iPad 4th WiFi+3G Verizon Back Cover/Housing/Frame"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+        <Button
+            android:id="@+id/expandableButtonta4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#066da1"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonta4"
+            android:paddingRight="10dp"
+            android:text="CAMERA"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutta4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#90066da1"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="iPad Air Wi-Fi Rear Facing Camera Replacement"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="iPad 3  Rear Facing Camera Replacement"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="iPad 2nd Rear Facing Camera Replacement"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="iPad 3rd Rear Facing Camera Replacement"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        <Button
+            android:id="@+id/expandableButtonta5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba1f04"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonta5"
+            android:paddingRight="10dp"
+            android:text="SPEAKER"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutta5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#90ba1f04"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Loud Speaker for Apple iPad mini 128GB WiFi Plus Cellular"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Loud Speaker for Apple iPad 3rd 64GB WiFi Plus Cellular"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Loud Speaker for Apple iPad Air 32GB WiFi Plus Cellular"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleviewtas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        <Button
+            android:id="@+id/expandableButtonta6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#b77803"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButtonta6"
+            android:paddingRight="10dp"
+            android:text="CHARGING PORT"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayoutta6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#90b77803"
+            android:padding="16dp"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Apple iPad 3 3rd Gen Charger Port Dock Flex Ribbon Cable Repair Replacement Part"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Apple iPad 4  Charger Port Dock Replacement Part"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Apple iPad Air Charger Port Dock Replacement Part"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Apple iPad mini Charger Port Dock Replacement Part"/>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "414463176144",
+    "firebase_url": "https://gadget-and-repair.firebaseio.com",
+    "project_id": "gadget-and-repair",
+    "storage_bucket": "gadget-and-repair.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414463176144:android:c2ec5fb43bc121b8",
+        "android_client_info": {
+          "package_name": "com.vikas.gadgetsrepair2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414463176144-pu22kgnhrlbcaoc48ov2a0mqf3qladhl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vikas.gadgetsrepair2",
+            "certificate_hash": "01149bf7ecb39752740275f0dcfbf487259b0f2e"
+          }
+        },
+        {
+          "client_id": "414463176144-9pgtlramlf4pl8ff0oja9tgrc8qn3a8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDetuO1iy6jNGtsZTK1QXG8gdFg8SlhhTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414463176144-9pgtlramlf4pl8ff0oja9tgrc8qn3a8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

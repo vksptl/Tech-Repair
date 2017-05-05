@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Desktop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f2f2f2">
+
+        <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/carousel3"
+            app:slideInterval="3000"
+            android:focusableInTouchMode="true">
+
+        </com.synnapps.carouselview.CarouselView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="8dp"
+            card_view:contentPadding="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/d_iv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/asus"/>
+
+                <TextView
+                    android:id="@+id/d_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/d_iv1"
+                android:layout_alignRight="@+id/d_iv1"
+                android:layout_centerVertical="true"
+                android:text="ASUS"
+                    android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="center"
+                android:textColor="#fdfcfc"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0091EA"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="8dp"
+            card_view:contentPadding="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/d_iv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dell"/>
+
+                <TextView
+                    android:id="@+id/d_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/d_iv2"
+                    android:layout_alignRight="@+id/d_iv2"
+                    android:layout_centerVertical="true"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textColor="#fdfcfc"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0091EA"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="8dp"
+            card_view:contentPadding="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/d_iv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/apple"/>
+
+                <TextView
+                    android:id="@+id/d_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/d_iv3"
+                    android:layout_alignRight="@+id/d_iv3"
+                    android:layout_centerVertical="true"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textColor="#fdfcfc"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0091EA"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="8dp"
+            card_view:contentPadding="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/d_iv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hp"/>
+
+                <TextView
+                    android:id="@+id/d_tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/d_iv4"
+                    android:layout_alignRight="@+id/d_iv4"
+                    android:layout_centerVertical="true"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textColor="#fdfcfc"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0091EA"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="8dp"
+            card_view:contentPadding="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/d_iv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/samsung"/>
+
+                <TextView
+                    android:id="@+id/d_tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/d_iv5"
+                    android:layout_alignRight="@+id/d_iv5"
+                    android:layout_centerVertical="true"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textColor="#fdfcfc"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0091EA"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="8dp"
+            card_view:contentPadding="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/d_iv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lenovo"/>
+
+                <TextView
+                    android:id="@+id/d_tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/d_iv6"
+                    android:layout_alignRight="@+id/d_iv6"
+                    android:layout_centerVertical="true"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:gravity="center"
+                    android:textColor="#fdfcfc"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0091EA"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
